@@ -1,0 +1,151 @@
+.footer {
+  background-color: black;
+}
+
+.footer_nav--ul {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+
+.footer_nav--ul li a {
+  color: blanchedalmond;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.footer_nav--ul li a:hover {
+  color: #a09c9a;
+}
+
+.header {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.caja, .caja1 {
+  background-color: #485461;
+  background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 1rem;
+}
+
+.caja1 {
+  color: bisque;
+  width: 60%;
+  border: 2px #afaaa6 solid;
+  padding: 1.5px;
+}
+
+.caja2 {
+  width: 30vw;
+  padding-left: 2rem;
+}
+
+.parr {
+  background-color: #485461;
+  background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+  text-align: center;
+}
+
+.parr h1 {
+  color: #afaaa6;
+  padding-top: 1rem;
+}
+
+.temas {
+  display: flow-root;
+}
+
+.temas h2 {
+  color: #afaaa6;
+}
+
+.temas_portada {
+  text-align: center;
+  background-color: #485461;
+  background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+  padding: 1.5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.temas_11 {
+  text-align: center;
+  background-color: #485461;
+  background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+  padding: 1.5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 2.1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.otro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.otro_img {
+  width: 65vw;
+  background-color: #3f3e3f;
+}
+
+@media screen and (max-width: 576px) {
+  .otro_img {
+    width: 100%;
+  }
+}
+
+.otro_texto {
+  text-align: justify;
+  padding-left: 4rem;
+  padding-right: 3rem;
+  padding-top: 4rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #3f3e3f;
+  color: antiquewhite;
+}
+
+.otro_texto h1 {
+  color: #afaaa6;
+}
+
+@media screen and (max-width: 576px) {
+  .otro_texto {
+    padding-left: 0rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .otro {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+/*# sourceMappingURL=estilo.css.map */

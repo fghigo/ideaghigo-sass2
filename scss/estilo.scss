@@ -1,0 +1,40 @@
+$bg-body: rgb(63, 62, 63);
+@import "footer";
+@import "header";
+@import "caja";
+@import "temas";
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.otro{
+    display: flex;
+    &_img {
+        
+        width: 65vw;
+        background-color: $bg-body;
+       
+        }
+       
+    }
+    &_texto{
+        h1{
+            color: rgb(175, 170, 166);
+        }
+        text-align: justify;
+        padding-left: 4rem;
+        padding-right: 3rem;
+        padding-top: 4rem;
+        justify-content: center;
+        background-color: $bg-body;
+        color: antiquewhite;
+           }
+
+    
